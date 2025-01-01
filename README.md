@@ -5,6 +5,8 @@ This is a simple React 19 app to demonstrate new features in React 19.
 ## Features
 
 - 1- Server Actions with `useActionState` hook
+- 2- Form Actions with `useFormStatus` hook
+
 
 ## Prerequisites
 - Node.js 18.0 or higher
