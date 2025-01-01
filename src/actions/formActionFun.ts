@@ -8,7 +8,6 @@ export const formActionFun = async (
 ) => {
   "use server";
   const name = data.get("username");
-  console.log(name);
   // semulate a server action after 5 seconds return a new state
   try {
     await fetch("https://jsonplaceholder.typicode.com/posts");

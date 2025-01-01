@@ -1,18 +1,17 @@
 import {useActionState} from "react"
 import {formActionFun} from "../../actions/formActionFun"
-
+import SubmitButton from "../../components/SubmitButton";
 const FormActions = () => {
-  const [state, formAction, isPending] = useActionState(formActionFun,{status:"",message:""});
+  const [state, formAction] = useActionState(formActionFun,{status:"",message:""});
   return (
     <div>
-      <h1>UseActionState</h1>
-      <form action={formAction}>
+      <h1>useFormStatus demo</h1>
+      <form action={formAction} >
         <input type="text" placeholder="Enter your name" name="username"  />
-        <button   >
-          {isPending ? "loading..." : "Submit"}
-        </button>
+        <SubmitButton/>
         {state.status && <p>{state.message}</p>}
       </form>
+ 
     </div>
   )
 }
