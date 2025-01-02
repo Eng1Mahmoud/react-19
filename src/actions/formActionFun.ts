@@ -3,7 +3,7 @@ type stateType = {
   message: string;
 };
 export const formActionFun = async (
-  currentState: stateType,
+  _currentState: stateType,
   data: FormData
 ) => {
   "use server";
