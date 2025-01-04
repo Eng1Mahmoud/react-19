@@ -21,6 +21,16 @@ const Home = () => {
               useOptimistic
             </Link>
           </li>
+        
+        
+          <li>
+            <Link
+              to="/users"
+              className="block rounded-lg hover:bg-gray-50 transition-colors text-blue-600 hover:text-blue-700"
+            >
+              JSONPlaceholder Users
+            </Link>
+          </li>
         </ul>
     </div>
   );
