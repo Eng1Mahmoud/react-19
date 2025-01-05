@@ -31,6 +31,14 @@ const Home = () => {
               JSONPlaceholder Users
             </Link>
           </li>
+          <li>
+            <Link
+              to="/profile"
+              className="block rounded-lg hover:bg-gray-50 transition-colors text-blue-600 hover:text-blue-700"
+            >
+              Profile
+            </Link>
+          </li>
         </ul>
     </div>
   );
