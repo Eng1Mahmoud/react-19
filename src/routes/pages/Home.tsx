@@ -39,6 +39,14 @@ const Home = () => {
               Profile
             </Link>
           </li>
+          <li>
+            <Link
+              to="/comments"
+              className="block rounded-lg hover:bg-gray-50 transition-colors text-blue-600 hover:text-blue-700"
+            >
+              Comments
+            </Link>
+          </li>
         </ul>
     </div>
   );
