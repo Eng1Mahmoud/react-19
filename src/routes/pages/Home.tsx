@@ -41,10 +41,10 @@ const Home = () => {
           </li>
           <li>
             <Link
-              to="/comments"
+              to="/use-defered-value"
               className="block rounded-lg hover:bg-gray-50 transition-colors text-blue-600 hover:text-blue-700"
             >
-              Comments
+              useDeferredValue
             </Link>
           </li>
         </ul>

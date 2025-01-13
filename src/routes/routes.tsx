@@ -4,10 +4,10 @@ import FormActions from "./pages/FormActions";
 import Home from "./pages/Home";
 import Users from "./pages/Users";
 import Profile from "./pages/Profile";
-import Comments from "./pages/Comments";
-
+import UseDeferredValue from "./pages/UseDeferredValue";
 export const AppRoutes = () => {
   return (
+  
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ export const AppRoutes = () => {
         <Route path="/todo-optimistic" element={<ToDoList />} />
         <Route path="/users" element={<Users />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/comments" element={<Comments />} />
+        <Route path="/use-defered-value" element={<UseDeferredValue/>} />
       </Routes>
     </BrowserRouter>
   );
