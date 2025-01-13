@@ -7,6 +7,7 @@ const FormActions = () => {
 
   return (
     <div className="container mx-auto p-6">
+      <title>FormActions</title>
       <h1 className="text-2xl font-bold mb-6">useFormStatus demo</h1>
       
       <form action={formAction} className="max-w-md space-y-4">

@@ -3,6 +3,7 @@ import { Link } from "react-router";
 const Home = () => {
   return (
     <div>
+      <title>Home</title>
       <h1 className="text-[40px] font-bold text-center mt-10 text-blue-800">React 19</h1>
         <ul className="space-y-4 p-6  w-full">
           <li>
