@@ -48,6 +48,14 @@ const Home = () => {
               useDeferredValue
             </Link>
           </li>
+          <li>
+            <Link
+              to="/protected-route"
+              className="block rounded-lg hover:bg-gray-50 transition-colors text-blue-600 hover:text-blue-700"
+            >
+              Protected Route
+            </Link>
+          </li>
         </ul>
     </div>
   );
